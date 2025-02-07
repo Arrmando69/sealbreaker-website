@@ -54,3 +54,21 @@ body {
 }
 
 .hidden { display: none; }
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffe6cc;
+}
