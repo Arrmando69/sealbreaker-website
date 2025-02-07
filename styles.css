@@ -72,3 +72,18 @@ nav a {
 nav a:hover {
     color: #ffe6cc;
 }
+/* Responsive Design */
+@media (max-width: 768px) {
+    #hero img {
+        width: 80%;
+    }
+
+    button {
+        width: 80%;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
