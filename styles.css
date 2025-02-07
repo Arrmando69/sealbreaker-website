@@ -79,12 +79,17 @@ nav ul li {
 
 nav a {
     text-decoration: none; /* Remove underline */
-    color: white; /* Set default text color */
+    color: white; /* Set default text color to white for visibility */
     font-weight: 600; /* Bold text */
     padding: 10px 15px; /* Add padding around the links */
     background-color: #4CAF50; /* Set a background color for buttons */
     border-radius: 5px; /* Rounded corners */
     transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+/* Ensure that buttons are always visible */
+nav a {
+    background-color: #4CAF50; /* Green background */
 }
 
 nav a:hover {
