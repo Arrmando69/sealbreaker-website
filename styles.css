@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     animation: fadeIn 1s ease-in-out;
+    background-color: #2E2E2E; /* Dark grey background */
+    color: #FFFFFF; /* Set text color to white for contrast */
 }
 
 /* Animations */
@@ -48,7 +50,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: white;
+    background: #4CAF50; /* Green background for modal */
     padding: 20px;
     display: none;
 }
